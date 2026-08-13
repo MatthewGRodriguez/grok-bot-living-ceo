@@ -2,7 +2,7 @@
 
 Public teaching slice of a process kernel that runs **on** Grok Bot: explore while you are gone, rank what to do next, and only wake the phone when a new layer is real.
 
-Chat stays in Grok Bot. Discoveries notify outbound (Discord). Ranked joys and approvals stay human. This is not a fork of Grok Bot and not the full living-core runtime (hop0, MCP, idle loop, and ranking_ui stay private).
+Chat stays in Grok Bot. Discoveries notify outbound (Discord). Ranked joys and approvals stay human. This is not a fork of Grok Bot and not the full living-core runtime (hop0, MCP, and the idle loop stay private).
 
 ## Try it
 

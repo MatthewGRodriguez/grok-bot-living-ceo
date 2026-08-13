@@ -66,4 +66,4 @@ These are the living-core process hands. This repo does not run the server.
 
 ## What is not here
 
-The hop0 runtime, MCP server, lore CLI, idle explore loop, and ranking_ui stay private. Lambdas in this slice that write `store/pages/` expect that kernel.
+The hop0 runtime, MCP server, lore CLI, and idle explore loop stay private. Lambdas in this slice that write `store/pages/` expect that kernel.

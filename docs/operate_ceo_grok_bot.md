@@ -12,7 +12,7 @@ Exotelos law: [exotelos.md](exotelos.md). JFactor: a Joy is a ranked stock, not 
 | Need | Use |
 |------|-----|
 | Phone-path test | `python3 scripts/ceo-discord-notify.py test` |
-| Load Exp6 | `require('./vendor/exp6/JFactor_exp6.js')` or `node examples/require-exp6.js` |
+| Load Exp6 | `require('./vendor/exp6/JFactor_exp6.js')` |
 | ceo_next excerpt | `require('./modalities/ceo_next/lambda/index.js')` — effectiveness only; `work()` needs living-core store + siblings |
 | Bootstrap modalities | `modalities/host/docs/HOW.md` · [modalities.md](modalities.md) · [living-core-features.md](living-core-features.md) |
 

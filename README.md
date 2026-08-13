@@ -92,10 +92,6 @@ Living-core uses that so `ceo_next` is steered by SimulatedBest → Best.
 const exp6 = require('./vendor/exp6/JFactor_exp6.js');
 ```
 
-```bash
-node examples/require-exp6.js
-```
-
 `vendor/exp6/simulated_best.js` is living-core ranking glue. It requires a `modality` module that is not shipped here, so it will not load standalone. Use `JFactor_exp6.js` if you just want the engine.
 
 ```

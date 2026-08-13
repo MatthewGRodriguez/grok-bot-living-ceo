@@ -6,7 +6,6 @@
   "license": "MIT",
   "main": "vendor/exp6/JFactor_exp6.js",
   "scripts": {
-    "exp6": "node examples/require-exp6.js",
     "notify-test": "python3 scripts/ceo-discord-notify.py test"
   }
 }

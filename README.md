@@ -33,3 +33,13 @@ Never commit the webhook. Never invent money. Never auto-approve REVIEW.
 
 Explore = new layers + scoring models, not health checks.
 Quiet most minutes is the product.
+
+## Exp6
+
+Optimization / ranking engine. `vendor/exp6/` is the bundled JFactor Exp6 (FastBest, Frame/SLP, SIMD, GPU kernels). Living-core uses it so **SimulatedBest → Best** can steer `ceo_next` instead of a prose "what next?".
+
+```
+vendor/exp6/JFactor_exp6.js     engine
+vendor/exp6/simulated_best.js   living-core ranking glue
+vendor/exp6/tools/              wasm / worker runtimes
+```

@@ -17,7 +17,7 @@ Notes for **this public slice**. The full kernel (MCP, lore, idle explore, ranki
 
 - living-core MCP (`living_*` methods)
 - `scripts/ensure-living-infra.sh`, `scripts/ceo-explore.sh`, `scripts/ceo-self-prompt.sh`
-- ranking_ui / money source of truth
+- ranking_ui / joy source of truth
 - sibling act-children that `ceo_next` ranks
 - the `modality` module that `vendor/exp6/simulated_best.js` requires
 
@@ -35,13 +35,13 @@ If Best rhymes across ticks, stop and rewrite a prior before another auto_tick. 
 
 ## autonomy (law)
 
-- Ping human only for REVIEW / approve / money SoT
+- Ping human only for REVIEW / approve / joy SoT
 - Discord outbound ≠ chat source of truth
 - Wake triage: new exploration layer / REVIEW / infra-dead only
 
 ## non-goals
 
-- Do not invent $
+- Do not invent joy values
 - Do not auto-approve REVIEW
 - Do not treat pantheon fiction world as rank input
 - Do not commit webhooks, secrets, workbook data, or local box paths

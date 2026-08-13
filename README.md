@@ -2,7 +2,7 @@
 
 Public slice of a process kernel that runs **on** Grok Bot: explore while you are gone, rank what to do next, and only wake the phone when a new layer is real.
 
-This is **not** a fork of Grok Bot and **not** the full living-core runtime. Chat stays in Grok Bot. Discoveries notify outbound (Discord). Money and approvals stay human.
+This is **not** a fork of Grok Bot and **not** the full living-core runtime. Chat stays in Grok Bot. Discoveries notify outbound (Discord). Joys and approvals stay human. A joy is any ranked thing (calendar, budget, schedule), not a money type.
 
 ## What this repo is
 
@@ -14,7 +14,7 @@ This is **not** a fork of Grok Bot and **not** the full living-core runtime. Cha
 ## What this repo is not
 
 - The private living-core kernel (MCP, lore CLI, idle explore loop, ranking_ui).
-- Secrets, webhooks, workbook / money data, or local box paths.
+- Secrets, webhooks, workbook / joy data, or local box paths.
 - Sibling act-children (`ceo_mgmt_self`, `ceo_play_adonia`, `ceo_encode_priors`, `ceo_exo_gen`) that `ceo_next` scores. They live in living-core; here they fall back to a default score.
 
 ## Clone and requirements
@@ -71,7 +71,7 @@ vendor/exp6/tools/              wasm / worker runtimes
 
 ## Law
 
-- Never invent money.
+- Never invent joy values.
 - Never auto-approve REVIEW.
 - Never commit a webhook, .env, or secrets/.
 - Explore = new layers + scoring models, not health checks.

@@ -1,6 +1,6 @@
 # Living-core features
 
-This slice ships the bootstrap modalities and the ranking engine. The MCP server and hop0 runtime stay in private living-core. The features below are what those modalities are for.
+This slice ships the bootstrap modalities and the ranking engine. The MCP server and skills ship here.
 
 ## Rank pipeline
 
@@ -66,4 +66,4 @@ These are the living-core process hands. This repo does not run the server.
 
 ## What is not here
 
-The hop0 runtime, MCP server, lore CLI, and idle explore loop stay private. Lambdas in this slice that write `store/pages/` expect that kernel.
+The lore CLI and the Grok Bot idle CEO loop stay out of this slice.

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "living": {
+      "command": "bash",
+      "args": ["mcp/run-stdio.sh"]
+    }
+  }
+}

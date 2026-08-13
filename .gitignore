@@ -6,4 +6,10 @@ node_modules/
 __pycache__/
 .DS_Store
 *.log
-store/
+store/*
+!store/pages/
+store/pages/*
+!store/pages/skills/
+!store/pages/skills/**
+!store/pages/skills_index.md
+!store/pages/operate_skills.md

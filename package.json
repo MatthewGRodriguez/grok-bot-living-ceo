@@ -1,7 +1,7 @@
 {
   "name": "grok-bot-living-ceo",
   "version": "0.1.0",
-  "description": "Public teaching slice of living-ceo on Grok Bot: Discord notify, bootstrap modalities, vendored JFactor Exp6.",
+  "description": "Public teaching slice of living-ceo: JFactor, Exotelos, bootstrap modalities, MCP hands, and skills.",
   "license": "MIT",
   "main": "vendor/exp6/JFactor_exp6.js",
   "repository": {
@@ -15,9 +15,18 @@
     "docs",
     "modalities",
     "scripts",
-    "vendor"
+    "vendor",
+    "mcp",
+    "src",
+    ".grok",
+    ".cursor",
+    "store"
   ],
   "scripts": {
-    "notify-test": "python3 scripts/ceo-discord-notify.py test"
+    "notify-test": "python3 scripts/ceo-discord-notify.py test",
+    "mcp": "node mcp/http.js",
+    "mcp:stdio": "node mcp/stdio.js",
+    "mcp:http": "node mcp/http.js",
+    "smoke": "node scripts/smoke.js"
   }
 }

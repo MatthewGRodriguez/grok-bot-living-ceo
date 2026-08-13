@@ -1,0 +1,8 @@
+# living-ceo as project root — Grok MCP
+# MCP = hands · Skills = judgment (see .grok/skills/)
+
+[mcp_servers.living]
+command = "node"
+args = ["mcp/stdio.js"]
+enabled = true
+startup_timeout_sec = 30

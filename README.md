@@ -2,17 +2,20 @@
 
 Public teaching slice of a process kernel that runs **on** Grok Bot: explore while you are gone, rank what to do next, and only wake the phone when a new layer is real.
 
-Chat stays in Grok Bot. Discoveries notify outbound (Discord). Ranked joys and approvals stay human. This is not a fork of Grok Bot and not the full living-core runtime (hop0, MCP, and the idle loop stay private).
+Chat stays in Grok Bot. Discoveries notify outbound (Discord). Ranked joys and approvals stay human. This is not a fork of Grok Bot and not the full living-core runtime (the idle CEO loop stays in Grok Bot; MCP hands and skills ship here).
 
 ## Try it
 
 ```bash
 git clone https://github.com/MatthewGRodriguez/grok-bot-living-ceo.git
 cd grok-bot-living-ceo
+- `mcp/` + `src/` — MCP hands (`living_sense`, `living_rank_cycle`, `living_skill`, `living_exotelos`).
+- `.grok/skills/` — `living-operate` and `exotelos`.
+- `store/pages/skills/` — `living_skill` packages (craft, crystallize, research, data).
 python3 scripts/ceo-discord-notify.py test
 ```
 
-Needs **Python 3** (notify) and **Node.js** (JFactor / `ceo_next`). No package install. There are no runtime dependencies.
+Needs **Python 3** (notify) and **Node.js >= 18** (JFactor, MCP, skills). No package install.
 
 Without a webhook the notify test fails cleanly: `ok false`, `error discord not configured`.
 
@@ -28,12 +31,15 @@ Then read how modalities work: [`modalities/host/docs/HOW.md`](modalities/host/d
 
 ## What's here
 
+- `mcp/` + `src/` — MCP hands (`living_sense`, `living_rank_cycle`, `living_skill`, `living_exotelos`).
+- `.grok/skills/` — `living-operate` and `exotelos`.
+- `store/pages/skills/` — `living_skill` packages (craft, crystallize, research, data).
 - `scripts/ceo-discord-notify.py` — the one thing you can run after clone (webhook optional).
 - `vendor/exp6/` — JFactor Exp6, the ranking engine. A Joy is a ranked stock, not currency. See [`vendor/exp6/README.md`](vendor/exp6/README.md).
 - `modalities/` — bootstrap tree (`joy` → `host` → `data` / `research` / `crystallize` / `craft`) plus `ceo_next`.
 - [`docs/exotelos.md`](docs/exotelos.md) — full Exotelos law (axes, origin, recursion, expansion / compression).
 - [`docs/modalities.md`](docs/modalities.md) — bootstrap tree, jmethod, layer-local j.
-- [`docs/living-core-features.md`](docs/living-core-features.md) — rank pipeline, explore / graduate / MCP tools (documented; the server is not here).
+- [`docs/living-core-features.md`](docs/living-core-features.md) — rank pipeline, explore / graduate / MCP tools (server ships here).
 - [`docs/operate_ceo_grok_bot.md`](docs/operate_ceo_grok_bot.md) — operate law for this slice.
 
 Secrets, webhooks, workbook / joy data, and local box paths are not in this repo. Sibling act-children that `ceo_next` scores (`ceo_mgmt_self`, `ceo_play_adonia`, `ceo_encode_priors`, `ceo_exo_gen`) live in living-core; here they fall back to a default score.

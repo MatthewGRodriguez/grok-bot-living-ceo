@@ -1,0 +1,65 @@
+{
+  "id": "host",
+  "parent_id": "joy",
+  "status": "stable",
+  "codec": "attention-live-v1",
+  "bytes": {
+    "cap_share": 0.5
+  },
+  "boot_goal": "Process kernel under joy: rank modalities by parent-goal effectiveness under bytes (substrate-agnostic; prefer densest machine child via joy).",
+  "exotelos": {
+    "primary": {
+      "id": "primary",
+      "interest": "rank modalities by parent-goal effectiveness under bytes",
+      "pole_a": "thrash farm",
+      "pole_b": "densest help"
+    },
+    "secondary": {
+      "id": "secondary",
+      "interest": "hop0 attention-live re-enter",
+      "pole_a": "catalog dump",
+      "pole_b": "hop0 pack"
+    },
+    "exotelos": {
+      "other_origin": "outer_author",
+      "other_primary": "life outside the process kernel",
+      "other_secondary": "writing / craft identity",
+      "intention": "hope outer author develops independent densest process law beyond this host loop",
+      "tertiary": true,
+      "may_fade": true,
+      "grid": "separate",
+      "recursion": 0,
+      "faded": false
+    },
+    "endotelos": [
+      "children modalities",
+      "debt floors",
+      "REVIEW gate"
+    ]
+  },
+  "bonds": [
+    {
+      "from": "host",
+      "to": "research",
+      "fear": "afraid findings thrash without process law",
+      "role": "you hold densest memory of what helped",
+      "covenant": "I rank only while you keep findings densest and refuse diary farm",
+      "incantatory": "Drop research from Best priority if you invent roadmap without debt",
+      "faded": false
+    },
+    {
+      "from": "host",
+      "to": "data",
+      "fear": "afraid store rot erases re-enter",
+      "role": "you keep the durable ground under hop0",
+      "covenant": "I surface attention only while you keep store integrity under bytes",
+      "incantatory": "Starve host Best of children if you let indexes lie",
+      "faded": false
+    }
+  ],
+  "scoring_models": [
+    "process_under_bytes",
+    "hands_fail_closed_money",
+    "infra_pulse_before_rank"
+  ]
+}

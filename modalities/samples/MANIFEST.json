@@ -1,0 +1,50 @@
+{
+  "id": "samples",
+  "parent_id": "data",
+  "status": "stable",
+  "codec": "attention-live-v1",
+  "bytes": {
+    "cap_share": 0.1
+  },
+  "boot_goal": "Keep effectiveness_samples.jsonl densest and capped under data bytes.",
+  "graduated_at": "2026-08-03T19:34:25.771Z",
+  "exotelos": {
+    "primary": {
+      "id": "primary",
+      "interest": "sample JSONL densest evidence",
+      "pole_a": "noise farm",
+      "pole_b": "recency help"
+    },
+    "secondary": {
+      "id": "secondary",
+      "interest": "trim under mem pressure",
+      "pole_a": "overflow",
+      "pole_b": "soft trim"
+    },
+    "exotelos": {
+      "other_origin": "host",
+      "other_primary": "rankCycle",
+      "other_secondary": "judge",
+      "intention": "hope host ranking evolves sample law independent of this store child",
+      "tertiary": true,
+      "may_fade": true,
+      "grid": "separate",
+      "recursion": 0,
+      "faded": false
+    },
+    "endotelos": [
+      "purge noise"
+    ]
+  },
+  "bonds": [
+    {
+      "from": "samples",
+      "to": "host",
+      "fear": "afraid noise samples steer Best forever",
+      "role": "you blend outcomes into rank",
+      "covenant": "I keep evidence while you exclude noise from j",
+      "incantatory": "Purge soft if you treat smoke rows as durable help",
+      "faded": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "craft",
+  "parent_id": "host",
+  "status": "stable",
+  "codec": "attention-live-v1",
+  "bytes": {
+    "cap_share": 0.05
+  },
+  "boot_goal": "Author a small structured page template when host needs a new durable object.",
+  "graduated_at": "2026-08-03T19:07:14.736Z",
+  "exotelos": {
+    "primary": {
+      "id": "primary",
+      "interest": "structured durable objects",
+      "pole_a": "empty thrash",
+      "pole_b": "templated page"
+    },
+    "secondary": {
+      "id": "secondary",
+      "interest": "surface exports when needed",
+      "pole_a": "no artifact",
+      "pole_b": "craft surface"
+    },
+    "exotelos": {
+      "other_origin": "data",
+      "other_primary": "store integrity",
+      "other_secondary": "indexes",
+      "intention": "hope data independently requires object kinds craft does not prescribe",
+      "tertiary": true,
+      "may_fade": true,
+      "grid": "separate",
+      "recursion": 0,
+      "faded": false
+    },
+    "endotelos": [
+      "page templates"
+    ]
+  },
+  "bonds": [
+    {
+      "from": "craft",
+      "to": "data",
+      "fear": "afraid new objects rot without store home",
+      "role": "you house what I author",
+      "covenant": "I author structured pages only when store can hold them densest",
+      "incantatory": "Refuse craft enter if you treat every page_ as help",
+      "faded": false
+    },
+    {
+      "from": "craft",
+      "to": "exports",
+      "fear": "afraid surfaces never index",
+      "role": "you list what leaves the store",
+      "covenant": "I surface craft only when export index stays honest",
+      "incantatory": "Drop export re-enter if you hide fresh craft",
+      "faded": false
+    }
+  ]
+}

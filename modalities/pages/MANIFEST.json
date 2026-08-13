@@ -1,0 +1,51 @@
+{
+  "id": "pages",
+  "parent_id": "data",
+  "status": "stable",
+  "codec": "attention-live-v1",
+  "bytes": {
+    "cap_share": 0.15
+  },
+  "boot_goal": "Keep densest re-enterable pages under store/pages for data’s memory goal.",
+  "graduated_at": "2026-08-03T19:34:08.806Z",
+  "exotelos": {
+    "primary": {
+      "id": "primary",
+      "interest": "page graph densest under data",
+      "pole_a": "orphan thrash",
+      "pole_b": "link_index"
+    },
+    "secondary": {
+      "id": "secondary",
+      "interest": "trim / rewrite indexes",
+      "pole_a": "pad farm",
+      "pole_b": "durable links"
+    },
+    "exotelos": {
+      "other_origin": "crystallize",
+      "other_primary": "hop0_digest",
+      "other_secondary": "bytes law",
+      "intention": "hope crystallize independently needs page shapes we do not own",
+      "tertiary": true,
+      "may_fade": true,
+      "grid": "separate",
+      "recursion": 0,
+      "faded": false
+    },
+    "endotelos": [
+      "wiki links",
+      "session_tail peers"
+    ]
+  },
+  "bonds": [
+    {
+      "from": "pages",
+      "to": "data",
+      "fear": "afraid parent data forgets graph law",
+      "role": "you own store integrity",
+      "covenant": "I trim and link only under your debt",
+      "incantatory": "Stop rewrites if you demand index farm without orphan pressure",
+      "faded": false
+    }
+  ]
+}

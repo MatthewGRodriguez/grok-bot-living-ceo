@@ -1,0 +1,59 @@
+{
+  "id": "data",
+  "parent_id": "host",
+  "status": "stable",
+  "codec": "attention-live-v1",
+  "bytes": {
+    "cap_share": 0.5
+  },
+  "exotelos": {
+    "primary": {
+      "id": "primary",
+      "interest": "durable store integrity",
+      "pole_a": "loss",
+      "pole_b": "ensure_store"
+    },
+    "secondary": {
+      "id": "secondary",
+      "interest": "index / pages hygiene under cap",
+      "pole_a": "thrash pages",
+      "pole_b": "data_index densest"
+    },
+    "exotelos": {
+      "other_origin": "research",
+      "other_primary": "findings pages",
+      "other_secondary": "outcome tails",
+      "intention": "hope research develops independent store contracts without coupling data primary",
+      "tertiary": true,
+      "may_fade": true,
+      "grid": "separate",
+      "recursion": 0,
+      "faded": false
+    },
+    "endotelos": [
+      "pages",
+      "exports",
+      "samples"
+    ]
+  },
+  "bonds": [
+    {
+      "from": "data",
+      "to": "pages",
+      "fear": "afraid page thrash drowns index truth",
+      "role": "you hold the graph under the store",
+      "covenant": "I ensure_store while you keep links densest not pad",
+      "incantatory": "Block pages Best if you recreate thrash names as help",
+      "faded": false
+    },
+    {
+      "from": "data",
+      "to": "host",
+      "fear": "afraid host ignores debt floors",
+      "role": "you rank who enters the store",
+      "covenant": "I surface debt only for densest parent help",
+      "incantatory": "Raise debt floor forever if you invent store work without need",
+      "faded": false
+    }
+  ]
+}

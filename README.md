@@ -8,7 +8,9 @@ This is **not** a fork of Grok Bot and **not** the full living-core runtime. Cha
 
 - `scripts/ceo-discord-notify.py` — the one thing you can run after clone (webhook optional).
 - `vendor/exp6/` — JFactor Exp6, the ranking engine. A Joy is a ranked stock, not currency.
-- `modalities/ceo_next/` — excerpt of the ranked "what next?" decision node. Not a full runtime.
+- `modalities/` — bootstrap tree (`joy` → `host` → `data` / `research` / `crystallize` / `craft`) plus `ceo_next`. Host HOW explains how modalities work.
+- `docs/modalities.md` — bootstrap tree, jmethod, layer-local j.
+- `docs/living-core-features.md` — rank pipeline, explore / graduate / MCP tools.
 - `docs/exotelos.md` — full Exotelos law (axes, origin, recursion, expansion / compression).
 - `docs/operate_ceo_grok_bot.md` — operate notes for **this** slice.
 
@@ -16,6 +18,7 @@ This is **not** a fork of Grok Bot and **not** the full living-core runtime. Cha
 
 - The private living-core kernel (MCP, lore CLI, idle explore loop, ranking_ui).
 - Secrets, webhooks, workbook / joy data, or local box paths.
+- The hop0 runtime and MCP server (features are documented; the process hands stay private).
 - Sibling act-children (`ceo_mgmt_self`, `ceo_play_adonia`, `ceo_encode_priors`, `ceo_exo_gen`) that `ceo_next` scores. They live in living-core; here they fall back to a default score.
 
 ## Clone and requirements
@@ -39,6 +42,36 @@ python3 scripts/ceo-discord-notify.py test
 Expected when unset: ok false, error discord not configured.
 
 To actually post, set `DISCORD_WEBHOOK_URL` in the local environment, or put the URL in `secrets/discord_webhook.url` (gitignored). Never print or commit webhook URLs.
+
+## Bootstrap modalities
+
+A modality is a ranked child: MANIFEST + lambda + docs. Siblings sit in a JGroup. Best enters only the winner.
+
+```
+joy
+ └── host            process kernel — this is the modality that explains modalities
+      ├── data       durable store
+      │    ├── pages
+      │    ├── exports
+      │    └── samples
+      ├── research   densest findings
+      ├── crystallize  hop0 digest
+      └── craft      structured page author
+```
+
+Read [`modalities/host/docs/HOW.md`](modalities/host/docs/HOW.md) first. Then [docs/modalities.md](docs/modalities.md).
+
+**research** writes attention-packed findings. **crystallize** compresses those tails into a short hop0 digest so context does not go flat. **craft** authors one small structured page when entered. **data** holds pages / exports / samples under bytes.
+
+## Living-core features
+
+```
+sense → SimulatedBest → explore → Best(enter top) → sample → graduate?
+```
+
+j blends author prior with outcome samples. High j cannot force graduation. Explore writes candidates; nothing auto-installs. Invoke is separate from rank (prefer dry_run).
+
+Full table of tools and the judge / revoke / densify law: [docs/living-core-features.md](docs/living-core-features.md).
 
 ## JFactor (Exp6)
 

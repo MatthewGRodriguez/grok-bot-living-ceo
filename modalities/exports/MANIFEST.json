@@ -1,0 +1,50 @@
+{
+  "id": "exports",
+  "parent_id": "data",
+  "status": "stable",
+  "codec": "attention-live-v1",
+  "bytes": {
+    "cap_share": 0.1
+  },
+  "boot_goal": "Surface durable exports under store/exports for data’s store goal.",
+  "graduated_at": "2026-08-03T19:33:41.254Z",
+  "exotelos": {
+    "primary": {
+      "id": "primary",
+      "interest": "export surface index",
+      "pole_a": "missing index",
+      "pole_b": "exports_index"
+    },
+    "secondary": {
+      "id": "secondary",
+      "interest": "craft artifact visibility",
+      "pole_a": "hidden files",
+      "pole_b": "fresh craft re-enter"
+    },
+    "exotelos": {
+      "other_origin": "craft",
+      "other_primary": "structured page objects",
+      "other_secondary": "templates",
+      "intention": "hope craft develops export kinds beyond current index",
+      "tertiary": true,
+      "may_fade": true,
+      "grid": "separate",
+      "recursion": 0,
+      "faded": false
+    },
+    "endotelos": [
+      "svg/html surfaces"
+    ]
+  },
+  "bonds": [
+    {
+      "from": "exports",
+      "to": "craft",
+      "fear": "afraid index lists ghosts",
+      "role": "you make what I name",
+      "covenant": "I index only artifacts that still exist densest",
+      "incantatory": "Clear exports_index if you invent names without files",
+      "faded": false
+    }
+  ]
+}

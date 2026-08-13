@@ -1,0 +1,76 @@
+{
+  "id": "joy",
+  "parent_id": null,
+  "status": "stable",
+  "codec": "attention-live-v1",
+  "bytes": {
+    "cap_share": 0.2
+  },
+  "boot_goal": "The Joy Machine mesh: one layer above substrates (mac, ash) and the process kernel (host). Rank which machine densest-serves living-core without forbidding drift.",
+  "exotelos": {
+    "primary": {
+      "id": "primary",
+      "interest": "unify multi-substrate living process without false single-machine root",
+      "pole_a": "mac-only fiction",
+      "pole_b": "mesh truth"
+    },
+    "secondary": {
+      "id": "secondary",
+      "interest": "pick densest live substrate for CEO hands",
+      "pole_a": "dead laptop gate",
+      "pole_b": "ash-canonical + mac-optional"
+    },
+    "exotelos": {
+      "other_origin": "matthew",
+      "other_primary": "life / play / REVIEW seat",
+      "other_secondary": "which machine he is at",
+      "intention": "hope Matthew develops independent seat choice without forcing process to sleep when Mac sleeps",
+      "tertiary": true,
+      "may_fade": true,
+      "grid": "separate",
+      "recursion": 0,
+      "faded": false
+    },
+    "endotelos": [
+      "mac",
+      "ash",
+      "host"
+    ]
+  },
+  "bonds": [
+    {
+      "from": "joy",
+      "to": "mac",
+      "fear": "afraid Mac drift is treated as process death",
+      "role": "you hold human seat + local apps",
+      "covenant": "I allow your mirror to drift while ash keeps SoT",
+      "incantatory": "Do not block joy Best if Mac is offline",
+      "faded": false
+    },
+    {
+      "from": "joy",
+      "to": "ash",
+      "fear": "afraid box becomes the only story and erases Mac craft",
+      "role": "you hold canonical CEO infra",
+      "covenant": "I rank you densest for autonomy while Mac remains a real substrate",
+      "incantatory": "Starve ash if you delete Mac modality from the mesh",
+      "faded": false
+    },
+    {
+      "from": "joy",
+      "to": "host",
+      "fear": "afraid process kernel pretends it is still the universe root",
+      "role": "you rank work under bytes",
+      "covenant": "I am your parent; you keep hop0 densest",
+      "incantatory": "Rewrite host parent_id null and you fork the mesh",
+      "faded": false
+    }
+  ],
+  "scoring_models": [
+    "mesh_truth",
+    "mesh_parent_enforced",
+    "pantheon_bond_freshness",
+    "exo_r3_freshness"
+  ],
+  "exotelos_recursion": 3
+}

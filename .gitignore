@@ -1,0 +1,6 @@
+secrets/
+.env
+*.url
+workbook_data.json
+node_modules/
+__pycache__/

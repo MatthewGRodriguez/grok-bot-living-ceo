@@ -1,10 +1,22 @@
 {
   "name": "grok-bot-living-ceo",
   "version": "0.1.0",
-  "private": true,
-  "description": "Public slice of living-ceo on Grok Bot: Discord notify, ceo_next excerpt, vendored Exp6 ranking engine.",
+  "description": "Public teaching slice of living-ceo on Grok Bot: Discord notify, bootstrap modalities, vendored JFactor Exp6.",
   "license": "MIT",
   "main": "vendor/exp6/JFactor_exp6.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewGRodriguez/grok-bot-living-ceo.git"
+  },
+  "files": [
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "docs",
+    "modalities",
+    "scripts",
+    "vendor"
+  ],
   "scripts": {
     "notify-test": "python3 scripts/ceo-discord-notify.py test"
   }

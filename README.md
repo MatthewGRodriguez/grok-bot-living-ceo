@@ -1,46 +1,42 @@
 # living-ceo (Grok Bot harness)
 
-Public slice of a process kernel that runs **on** Grok Bot: explore while you are gone, rank what to do next, and only wake the phone when a new layer is real.
+Public teaching slice of a process kernel that runs **on** Grok Bot: explore while you are gone, rank what to do next, and only wake the phone when a new layer is real.
 
-This is **not** a fork of Grok Bot and **not** the full living-core runtime. Chat stays in Grok Bot. Discoveries notify outbound (Discord). Ranked joys and approvals stay human.
+Chat stays in Grok Bot. Discoveries notify outbound (Discord). Ranked joys and approvals stay human. This is not a fork of Grok Bot and not the full living-core runtime (hop0, MCP, idle loop, and ranking_ui stay private).
 
-## What this repo is
-
-- `scripts/ceo-discord-notify.py` — the one thing you can run after clone (webhook optional).
-- `vendor/exp6/` — JFactor Exp6, the ranking engine. A Joy is a ranked stock, not currency.
-- `modalities/` — bootstrap tree (`joy` → `host` → `data` / `research` / `crystallize` / `craft`) plus `ceo_next`. Host HOW explains how modalities work.
-- `docs/modalities.md` — bootstrap tree, jmethod, layer-local j.
-- `docs/living-core-features.md` — rank pipeline, explore / graduate / MCP tools.
-- `docs/exotelos.md` — full Exotelos law (axes, origin, recursion, expansion / compression).
-- `docs/operate_ceo_grok_bot.md` — operate notes for **this** slice.
-
-## What this repo is not
-
-- The hop0 runtime, MCP server, lore CLI, idle loop, and ranking_ui (features are documented; process hands stay private).
-- Secrets, webhooks, workbook / joy data, or local box paths.
-- Sibling act-children (`ceo_mgmt_self`, `ceo_play_adonia`, `ceo_encode_priors`, `ceo_exo_gen`) that `ceo_next` scores. They live in living-core; here they fall back to a default score.
-
-## Clone and requirements
+## Try it
 
 ```bash
 git clone https://github.com/MatthewGRodriguez/grok-bot-living-ceo.git
 cd grok-bot-living-ceo
-```
-
-Needs **Python 3** (notify script) and **Node.js** (JFactor / `ceo_next`).
-No package install step. There are no runtime dependencies.
-
-## Run the notify test
-
-Without a webhook this is supposed to fail cleanly:
-
-```bash
 python3 scripts/ceo-discord-notify.py test
 ```
 
-Expected when unset: ok false, error discord not configured.
+Needs **Python 3** (notify) and **Node.js** (JFactor / `ceo_next`). No package install. There are no runtime dependencies.
+
+Without a webhook the notify test fails cleanly: `ok false`, `error discord not configured`.
 
 To actually post, set `DISCORD_WEBHOOK_URL` in the local environment, or put the URL in `secrets/discord_webhook.url` (gitignored). Never print or commit webhook URLs.
+
+Then load the ranking engine:
+
+```js
+const exp6 = require('./vendor/exp6/JFactor_exp6.js');
+```
+
+Then read how modalities work: [`modalities/host/docs/HOW.md`](modalities/host/docs/HOW.md).
+
+## What's here
+
+- `scripts/ceo-discord-notify.py` — the one thing you can run after clone (webhook optional).
+- `vendor/exp6/` — JFactor Exp6, the ranking engine. A Joy is a ranked stock, not currency. See [`vendor/exp6/README.md`](vendor/exp6/README.md).
+- `modalities/` — bootstrap tree (`joy` → `host` → `data` / `research` / `crystallize` / `craft`) plus `ceo_next`.
+- [`docs/exotelos.md`](docs/exotelos.md) — full Exotelos law (axes, origin, recursion, expansion / compression).
+- [`docs/modalities.md`](docs/modalities.md) — bootstrap tree, jmethod, layer-local j.
+- [`docs/living-core-features.md`](docs/living-core-features.md) — rank pipeline, explore / graduate / MCP tools (documented; the server is not here).
+- [`docs/operate_ceo_grok_bot.md`](docs/operate_ceo_grok_bot.md) — operate law for this slice.
+
+Secrets, webhooks, workbook / joy data, and local box paths are not in this repo. Sibling act-children that `ceo_next` scores (`ceo_mgmt_self`, `ceo_play_adonia`, `ceo_encode_priors`, `ceo_exo_gen`) live in living-core; here they fall back to a default score.
 
 ## Bootstrap modalities
 

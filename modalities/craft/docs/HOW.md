@@ -1,6 +1,6 @@
-# modality:craft — lightweight page author (probe)
+# modality:craft — lightweight page author
 
-Child of **host**. Probe craft path: creates a **structured page** under `store/pages/page_<stamp>.md` when ranked and entered.
+Child of **host**. Craft path: creates a **structured page** under `store/pages/page_<stamp>.md` when ranked and entered.
 
 ## Law
 - Not an app launcher.  

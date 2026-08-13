@@ -12,7 +12,7 @@ Each child modality is a jmethod. Its j-value answers:
 2. **Explore** externals (machine surface, stores, installed modality packages).  
 3. **Best**: score all simulated, **enter only top** for real work; record sample (`did_help`).  
 4. **Graduate?** evaluate gate (may refuse); Grok applies via `living_graduate` when eligible.  
-5. Children today: **data** (stable), **research** / **crystallize** (testing), **craft** (probe), plus any scaffolded app/cli probes.
+5. Children in this slice: **data**, **research**, **crystallize**, **craft** (all `stable`). Nested under data: **pages**, **exports**, **samples**.
 
 ## Prefer
 - Stable children over probes (effectiveness models should encode this).  

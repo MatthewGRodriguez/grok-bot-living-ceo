@@ -1,56 +1,32 @@
 # operate_ceo_grok_bot
 
-Notes for **this public slice**. The full kernel (MCP, lore, idle explore, ranking_ui) lives in private living-core and is not here.
+Law for this public slice. Clone and run steps live in the [README](../README.md). Full Exotelos drawing: [exotelos.md](exotelos.md). A Joy is a ranked stock, not currency.
 
-Exotelos law: [exotelos.md](exotelos.md). JFactor: a Joy is a ranked stock, not currency.
-
-- at: 2026-08-13
-- law: Grok Bot = harness · living-core = densest process · Exp6 optimize · Exotelos tertiary
-
-## What you can do here
-
-| Need | Use |
-|------|-----|
-| Phone-path test | `python3 scripts/ceo-discord-notify.py test` |
-| Load Exp6 | `require('./vendor/exp6/JFactor_exp6.js')` |
-| ceo_next excerpt | `require('./modalities/ceo_next/lambda/index.js')` — effectiveness only; `work()` needs living-core store + siblings |
-| Bootstrap modalities | `modalities/host/docs/HOW.md` · [modalities.md](modalities.md) · [living-core-features.md](living-core-features.md) |
-
-## What is not in this repo
-
-- living-core MCP (`living_*` methods)
-- `scripts/ensure-living-infra.sh`, `scripts/ceo-explore.sh`, `scripts/ceo-self-prompt.sh`
-- ranking_ui / joy source of truth
-- sibling act-children that `ceo_next` ranks
-- the `modality` module that `vendor/exp6/simulated_best.js` requires
-
-Do not follow recipes that assume those files. They belong to living-core.
-
-## CEO origin (law)
+## CEO origin
 
 - **Primary:** densest parent-goal help under bytes
-- **Secondary:** lean under mem pressure · no roadmap farm
-- **Exotelos (tertiary):** perpendicular creative option on a separate grid · may fade · never overrides debt/REVIEW/samples
+- **Secondary:** lean under memory pressure; no roadmap farm
+- **Exotelos (tertiary):** perpendicular creative option on a separate grid. It may fade. It never overrides debt, REVIEW, or samples.
 
-## score models (law)
+## Score models
 
-If Best rhymes across ticks, stop and rewrite a prior before another auto_tick. That loop is living-core; this slice only ships the ranking engine and the `ceo_next` excerpt.
+If Best rhymes across ticks, stop and rewrite a prior before another auto_tick. That loop is living-core. This slice ships the ranking engine and the `ceo_next` excerpt.
 
-## autonomy (law)
+## Autonomy
 
-- Ping human only for REVIEW / approve / joy SoT
-- Discord outbound ≠ chat source of truth
-- Wake triage: new exploration layer / REVIEW / infra-dead only
+- Ping a human only for REVIEW, approve, or joy source of truth
+- Discord outbound is not the chat source of truth
+- Wake triage: new exploration layer, REVIEW, or infra-dead only
 
-## non-goals
+## Non-goals
 
 - Do not invent joy values
 - Do not auto-approve REVIEW
-- Do not treat pantheon fiction world as rank input
+- Do not treat pantheon fiction as rank input
 - Do not commit webhooks, secrets, workbook data, or local box paths
 
-## explore vs infra
+## Explore vs infra
 
-- Infra heal ≠ explore.
-- Explore = new scoring models → next ideas.
-- Quiet most minutes is the product.
+- Healing infra is not explore
+- Explore means new scoring models and next ideas
+- Quiet most minutes is the product

@@ -1,7 +1,3 @@
 # exports RESEARCH
 
-## Boot
-- Nested under data jgroup
-
-## graduation 2026-08-03T19:33:41.254Z
-- status → **stable**
+Findings live in private living-core. This package indexes store/exports under data.

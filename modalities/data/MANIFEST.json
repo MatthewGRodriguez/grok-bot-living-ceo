@@ -6,6 +6,7 @@
   "bytes": {
     "cap_share": 0.5
   },
+  "boot_goal": "Keep an attention-packed durable store under bytes (pages / exports / samples).",
   "exotelos": {
     "primary": {
       "id": "primary",

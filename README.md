@@ -2,14 +2,15 @@
 
 Public slice of a process kernel that runs **on** Grok Bot: explore while you are gone, rank what to do next, and only wake the phone when a new layer is real.
 
-This is **not** a fork of Grok Bot and **not** the full living-core runtime. Chat stays in Grok Bot. Discoveries notify outbound (Discord). Joys and approvals stay human. A joy is any ranked thing (calendar, budget, schedule), not a money type.
+This is **not** a fork of Grok Bot and **not** the full living-core runtime. Chat stays in Grok Bot. Discoveries notify outbound (Discord). Ranked joys and approvals stay human.
 
 ## What this repo is
 
 - `scripts/ceo-discord-notify.py` — the one thing you can run after clone (webhook optional).
-- `vendor/exp6/` — bundled JFactor Exp6 ranking engine (FastBest, Frame/SLP, SIMD, GPU kernels).
+- `vendor/exp6/` — JFactor Exp6, the ranking engine. A Joy is a ranked stock, not currency.
 - `modalities/ceo_next/` — excerpt of the ranked "what next?" decision node. Not a full runtime.
-- `docs/operate_ceo_grok_bot.md` — laws and operate notes for **this** slice.
+- `docs/exotelos.md` — full Exotelos law (axes, origin, recursion, expansion / compression).
+- `docs/operate_ceo_grok_bot.md` — operate notes for **this** slice.
 
 ## What this repo is not
 
@@ -19,14 +20,12 @@ This is **not** a fork of Grok Bot and **not** the full living-core runtime. Cha
 
 ## Clone and requirements
 
-Clone this repository, then work from the repo root.
-
 ```bash
 git clone https://github.com/MatthewGRodriguez/grok-bot-living-ceo.git
 cd grok-bot-living-ceo
 ```
 
-Needs **Python 3** (notify script) and **Node.js** (Exp6 / `ceo_next`).
+Needs **Python 3** (notify script) and **Node.js** (JFactor / `ceo_next`).
 No package install step. There are no runtime dependencies.
 
 ## Run the notify test
@@ -39,19 +38,26 @@ python3 scripts/ceo-discord-notify.py test
 
 Expected when unset: ok false, error discord not configured.
 
-To actually post, set DISCORD_WEBHOOK_URL in the local environment, or put the URL in secrets/discord_webhook.url (gitignored). Never print or commit webhook URLs.
+To actually post, set `DISCORD_WEBHOOK_URL` in the local environment, or put the URL in `secrets/discord_webhook.url` (gitignored). Never print or commit webhook URLs.
 
-## Exp6
+## JFactor (Exp6)
 
-Optimization / ranking engine. Living-core uses it so SimulatedBest can steer ceo_next instead of a prose "what next?".
+JFactor is the ranking / optimization engine. Exp6 is this generation of it (`vendor/exp6/JFactor_exp6.js`).
 
-Load the engine:
+A **Joy** is a named scalar stock the engine ranks and moves. Energy, attention, a calendar seat, a budget line — each can be a Joy. The engine's own comments use `money` as a *sample stock name*, the same way they use `energy`. That is an example identifier, not a claim that Joy means currency.
+
+What the engine actually does:
+
+- You register Joys (and relations) on a blueprint / world.
+- Actions rotate an origin toward an interest and change those Joys over time.
+- **Best** / **SimulatedBest** pick the next action by scoring Joys, not by a vibes paragraph.
+- Frame/SLP, SIMD, and GPU kernels are how long plans evaluate without walking every leaf.
+
+Living-core uses that so `ceo_next` is steered by SimulatedBest → Best.
 
 ```js
 const exp6 = require('./vendor/exp6/JFactor_exp6.js');
 ```
-
-Or run the tiny example:
 
 ```bash
 node examples/require-exp6.js
@@ -65,6 +71,30 @@ vendor/exp6/simulated_best.js   living-core glue — needs modality
 vendor/exp6/tools/              wasm / worker runtimes
 ```
 
+## Exotelos
+
+An origin's **tertiary** interest in **exogenous intention** of **perpendicular interest** on a **separate grid**.
+
+In future time the other origin must also develop their **independent** exotelos, separate from all current origins. Interest (primary / secondary) may change. Exotelos only exists in tertiary interest that does **not** affect primary or secondary. It may fade in time.
+
+The artist's focus on oil painting (primary) and charcoal sketching (secondary) was entirely separate from her exotelos: a detached hope that a musician she admired would eventually explore merging classical composition with electronic beats.
+
+That hope sits on another origin's grid. It does not steer her painting. If it fades, her primary and secondary are still intact.
+
+**Endotelos** is the other move: new points on the *same* grid.
+
+How the grid is drawn (short):
+
+- One axis needs two opposites. A perpendicular axis needs two more, independent of the first.
+- The **origin** sits at the center of those four opposites.
+- Moving along an axis is a rotation around that origin. Alignment on one axis is a proportional change on the perpendicular.
+- **Actions** take an origin toward an interest over time. Stronger alignment makes a small rotation cheaper; a large rotation costs more time.
+- Recursing the other origin's exotelos is how time layers. Each recursion is an increase in time. Alignments may move; they stay in the frame of an exotelos until it fades.
+- Axes can expand (origin → 2 core → 4 metaphysical → 8 physical) or compress the other way. Collapse is non-deterministic. Tertiary that was not on the collapsed axis can still exist: the exotelos.
+- Unknown lasts beyond the axis currently known. Unknown is a catalyst for exotelos.
+
+Full drawing, expansion / compression, actions, unknown, and a world-making seed: [docs/exotelos.md](docs/exotelos.md).
+
 ## ceo_next
 
 `modalities/ceo_next/lambda/index.js` is a decision-node excerpt. `require` it and call `effectiveness({ simulated: true })` — that works. `work()` expects living-core `store/pages/` and sibling modalities that are not in this repo.
@@ -73,8 +103,8 @@ vendor/exp6/tools/              wasm / worker runtimes
 
 - Never invent joy values.
 - Never auto-approve REVIEW.
-- Never commit a webhook, .env, or secrets/.
-- Explore = new layers + scoring models, not health checks.
+- Never commit a webhook, `.env`, or `secrets/`.
+- Explore = new exotelos layers + scoring models, not health checks.
 - Quiet most minutes is the product.
 
 ## License

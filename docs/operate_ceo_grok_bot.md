@@ -2,6 +2,8 @@
 
 Notes for **this public slice**. The full kernel (MCP, lore, idle explore, ranking_ui) lives in private living-core and is not here.
 
+Exotelos law: [exotelos.md](exotelos.md). JFactor: a Joy is a ranked stock, not currency.
+
 - at: 2026-08-13
 - law: Grok Bot = harness · living-core = densest process · Exp6 optimize · Exotelos tertiary
 

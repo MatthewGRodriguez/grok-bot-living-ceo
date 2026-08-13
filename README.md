@@ -16,9 +16,8 @@ This is **not** a fork of Grok Bot and **not** the full living-core runtime. Cha
 
 ## What this repo is not
 
-- The private living-core kernel (MCP, lore CLI, idle explore loop, ranking_ui).
+- The hop0 runtime, MCP server, lore CLI, idle loop, and ranking_ui (features are documented; process hands stay private).
 - Secrets, webhooks, workbook / joy data, or local box paths.
-- The hop0 runtime and MCP server (features are documented; the process hands stay private).
 - Sibling act-children (`ceo_mgmt_self`, `ceo_play_adonia`, `ceo_encode_priors`, `ceo_exo_gen`) that `ceo_next` scores. They live in living-core; here they fall back to a default score.
 
 ## Clone and requirements
@@ -59,7 +58,7 @@ joy
       └── craft      structured page author
 ```
 
-Read [`modalities/host/docs/HOW.md`](modalities/host/docs/HOW.md) first. Then [docs/modalities.md](docs/modalities.md).
+Front door: [`modalities/README.md`](modalities/README.md). Then [`host/docs/HOW.md`](modalities/host/docs/HOW.md).
 
 **research** writes attention-packed findings. **crystallize** compresses those tails into a short hop0 digest so context does not go flat. **craft** authors one small structured page when entered. **data** holds pages / exports / samples under bytes.
 

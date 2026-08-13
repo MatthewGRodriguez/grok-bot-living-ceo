@@ -1,0 +1,7 @@
+{
+  "id": "ceo_next",
+  "parent_id": "joy",
+  "status": "excerpt",
+  "boot_goal": "Rank act-children so what-next is in-rank, not a vibes paragraph.",
+  "note": "Public excerpt. Sibling act-children and store/pages are not in this slice. effectiveness() loads; work() will not complete a full tick here."
+}

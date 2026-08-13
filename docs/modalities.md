@@ -40,7 +40,7 @@ modalities/<id>/
   docs/EXOTELOS.md
   docs/BONDS.md
   docs/RESEARCH.md
-  docs/EXTERNALS.md live explore dump (stubbed in this slice)
+  docs/EXTERNALS.md live explore dump (not shipped)
 ```
 
 ## JMethod

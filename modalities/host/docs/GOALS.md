@@ -6,4 +6,4 @@
 - [ ] Surface externals for outer author to probe new modalities
 - [ ] Advance densest roadmap without note farm
 - [ ] Prefer densest parent-goal help over minimum loop latency (thorough when needed)
-- [ ] When human parks ranking_ui REVIEW, keep exploring under `review_park_explore` without inventing $
+- [ ] When human parks ranking_ui REVIEW, keep exploring under `review_park_explore` without inventing joy values

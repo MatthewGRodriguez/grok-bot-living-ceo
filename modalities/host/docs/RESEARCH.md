@@ -4,7 +4,7 @@
 - living-core modality package; densified to protect hop0 under bytes
 
 ## Open
-**Open:** REVIEW human · C1 wire ~351 · hop0 re-enter · operate_close · sheet $ SoT
+**Open:** REVIEW human · C1 wire ~351 · hop0 re-enter · operate_close · joy SoT human
 
 ### landed (P0–P74 densest)
 1. ~~P0–P29~~ densest loop · surface · quality · lore
@@ -17,7 +17,7 @@
 ### operate law
 - Prefer densest parent-goal help over inventing new phases
 - calendar_debt → Best calendar_layers; REVIEW dirty → review/approve intentional; else rankCycle
-- never invent expenses; money SoT ranking_ui
+- never invent joy values; REVIEW stays human
 - LLM catalogs: TOON at boundary; disk JSON/md SoT
 - Grok skill living-operate = judgment · MCP = hands
 

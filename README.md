@@ -17,7 +17,6 @@ This is not a fork of Grok Bot. Chat stays in Grok Bot. Discoveries notify outbo
 modalities/ceo_next/   ranked CEO decision node
 scripts/               Discord notify (DISCORD_WEBHOOK_URL)
 docs/                  operate notes
-POST.md                draft X post (repo link goes in the comments)
 ```
 
 ## Setup

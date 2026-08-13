@@ -1,4 +1,5 @@
 /**
+ * Requires living-core `modality` (not shipped here) and will not load standalone.
  * P71 C1: SimulatedBest densest (extracted from createRuntime).
  * Effectiveness-only ranking + optional Exp6 SimulatedBest ordering signal.
  */
